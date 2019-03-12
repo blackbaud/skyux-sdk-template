@@ -1,8 +1,14 @@
-import { NgModule } from '@angular/core';
+import {
+  NgModule
+} from '@angular/core';
 
-// Specify entry components, module-level providers, etc. here.
+import {
+  AppSkyModule
+} from './app-sky.module';
+
 @NgModule({
-  providers: [],
-  entryComponents: []
+  exports: [
+    AppSkyModule
+  ]
 })
 export class AppExtrasModule { }
