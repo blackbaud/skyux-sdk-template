@@ -3,24 +3,12 @@ import {
 } from '@angular/core';
 
 import {
-  SkyAvatarModule
-} from '@skyux/avatar';
-
-import {
-  SkyAlertModule,
-  SkyKeyInfoModule
-} from '@skyux/indicators';
-
-import {
-  SkyFluidGridModule
-} from '@skyux/layout';
+  AppSkyModule
+} from './app-sky.module';
 
 @NgModule({
   exports: [
-    SkyAlertModule,
-    SkyAvatarModule,
-    SkyFluidGridModule,
-    SkyKeyInfoModule
+    AppSkyModule
   ]
 })
 export class AppExtrasModule { }
