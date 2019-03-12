@@ -42,7 +42,7 @@ describe('About component', () => {
     fixture.detectChanges();
 
     const el = fixture.nativeElement;
-    const lastTeamEl = el.querySelector('.template-about-teams .template-about-team:last-child');
+    const lastTeamEl = el.querySelector('sky-key-info:last-child');
     const namesEl = lastTeamEl.querySelector('sky-key-info-value');
     const emailsEl = lastTeamEl.querySelector('sky-key-info-label');
 
