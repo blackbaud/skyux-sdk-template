@@ -23,6 +23,20 @@
             "console": "integratedTerminal",
             "sourceMaps": false,
             "outFiles": []
+        },
+        {
+          "type": "edge",
+          "request": "attach",
+          "name": "Attach to Microsoft Edge",
+          "port": 2015,
+          "webRoot": "${workspaceFolder}"
+        },
+        {
+          "type": "chrome",
+          "request": "attach",
+          "name": "Attach to Chrome",
+          "port": 2016,
+          "webRoot": "${workspaceFolder}"
         }
     ]
 }
