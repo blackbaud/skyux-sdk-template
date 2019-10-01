@@ -43,6 +43,7 @@
     "@skyux/omnibar-interop": "^3.0.0",
     "@skyux/router": "^3.0.0",
     "@skyux/theme": "^3.0.0",
+    "core-js": "^2.6.9",
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.0.0",
     "zone.js": "~0.8.28"
