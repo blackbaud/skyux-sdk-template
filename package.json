@@ -50,7 +50,7 @@
   "devDependencies": {
     "@angular/compiler-cli": "^9.0.0",
     "@pact-foundation/pact-web": "^9.0.0",
-    "@skyux-sdk/builder": "blackbaud/skyux-sdk-builder#rc-angular-9",
+    "@skyux-sdk/builder": "blackbaud/skyux-sdk-builder#rc-4.0.0",
     "@skyux-sdk/pact": "^3.0.0",
     "@skyux-sdk/testing": "^3.0.0",
     "codelyzer": "^5.0.0",
