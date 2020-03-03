@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/@skyux/config/skyuxconfig-schema.json",
+  "plugins": [
+    "@skyux-sdk/builder-plugin-pact"
+  ],
+  "pacts": [
+    {
+      "consumer": "skyux-sdk-template",
+      "provider": "my-provider"
+    }
+  ]
+}
