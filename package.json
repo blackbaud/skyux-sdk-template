@@ -43,7 +43,7 @@
     "@skyux/omnibar-interop": "^4.0.0-rc.0",
     "@skyux/router": "^4.0.0-rc.0",
     "@skyux/theme": "^4.0.0-rc.0",
-    "rxjs": "^6.0.0",
+    "rxjs": "~6.5.0",
     "zone.js": "~0.10.0"
   },
   "devDependencies": {
@@ -51,8 +51,8 @@
     "@skyux-sdk/builder": "blackbaud/skyux-sdk-builder#rc-4.0.0",
     "@skyux-sdk/testing": "^3.0.0",
     "codelyzer": "^5.0.0",
-    "ts-node": "^8.0.0",
-    "tslint": "^5.0.0",
-    "typescript": "~3.6.0"
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~3.8.0"
   }
 }
