@@ -39,7 +39,7 @@
     "@skyux/indicators": "^4.0.0",
     "@skyux/layout": "^4.0.0",
     "@skyux/modals": "^4.0.0",
-    "@skyux/navbar": "^4.0.0",
+    "@skyux/navbar": "^4.0.0-rc.0",
     "@skyux/omnibar-interop": "^4.0.0",
     "@skyux/router": "^4.0.0",
     "@skyux/theme": "^4.0.0",
