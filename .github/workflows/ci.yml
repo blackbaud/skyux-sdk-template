@@ -2,7 +2,7 @@ name: GitHub Actions
 
 on:
   pull_request:
-    branches: [master]
+    branches: [master, rc-4.0.0]
 
 jobs:
   coverage:
