@@ -17,7 +17,7 @@ jobs:
       - run: npm ci
       - run: npm i --no-save --no-package-lock blackbaud/skyux-sdk-builder-config
       - name: Test
-        run: skyux test --headless
+        run: skyux test --headless --platform travis
         env:
           BROWSER_STACK_ACCESS_KEY: ${{ secrets.BROWSER_STACK_ACCESS_KEY }}
           BROWSER_STACK_USERNAME: ${{ secrets.BROWSER_STACK_USERNAME }}
