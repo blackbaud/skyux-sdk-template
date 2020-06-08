@@ -13,11 +13,10 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-      - run: npm i -g @skyux-sdk/cli@next
       - run: npm ci
       - run: npm i --no-save --no-package-lock blackbaud/skyux-sdk-builder-config
       - name: Test
-        run: skyux test --platform travis
+        run: npx -p @skyux-sdk/cli@next skyux test --platform travis
         env:
           BROWSER_STACK_ACCESS_KEY: ${{ secrets.BROWSER_STACK_ACCESS_KEY }}
           BROWSER_STACK_USERNAME: ${{ secrets.BROWSER_STACK_USERNAME }}
